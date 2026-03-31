@@ -2,7 +2,7 @@ import ScrollSpy from "react-scrollspy-navigation";
 import Media from "./media";
 const Landing = () => {
   return (
-    <div>
+    <div className="flex flex-col xl:px-20 px-8 md:px-8 md:min-h-screen">
       <aside className="md:w-1/2 md:fixed h-full md:pt-24 pt-12">
         <div>
           <h1 className="font-rajdhani tracking-tight text-[48px] leading-[50px] font-bold text-slate">

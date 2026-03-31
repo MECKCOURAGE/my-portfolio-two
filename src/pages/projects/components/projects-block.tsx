@@ -64,13 +64,13 @@ const ProjectBlock = ({
               VISIT SITE
             </a>
           </li>
-          <li className="text-sm">OR</li>
+          <li className="text-sm mb-2">OR</li>
           <li>
             <a
               href={githubLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2 border-2 rounded-full border-slate hover:border-background bg-background hover:bg-slate hover:text-background transition-all  duration-200 ease-in-out"
+              className="p-2 border-2 rounded-full border-customSlate hover:border-background bg-background hover:bg-customSlate hover:text-background transition-all  duration-200 ease-in-out"
             >
               VISIT CODE
             </a>
