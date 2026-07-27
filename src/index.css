@@ -15,6 +15,10 @@
     @apply bg-background
   }
 }
+html,
+body {
+  scroll-behavior: smooth;
+}
 
 html, body {
   background-color: #E2E8F0; /* your background color */
