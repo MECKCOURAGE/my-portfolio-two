@@ -4,8 +4,13 @@ import { useQuery } from "@tanstack/react-query";
 import SkeletonCard from "../../components/skeleton-loader";
 
 async function fetchProjects() {
-  const { data, error } = await supabase.from("Projects").select("*");
+  const { data, error } = await supabase
+    .from("Projects")
+    .select("*")
+    .order("created_at", { ascending: false });
+
   if (error) throw new Error(error.message);
+
   return data;
 }
 
